@@ -12,7 +12,7 @@ export const MovieRoutes = () => {
         <Route path='/trending' element={<Trending />} />
         <Route path='/top10' element={<Top10 />} />
         <Route path='/login' element={<Login />} />
-        <Route path='/movie/:movieId' element={<Movie />} />
+        <Route path='/:media_type/:movieId' element={<Movie />} />
       </Routes>
     </>
   )
